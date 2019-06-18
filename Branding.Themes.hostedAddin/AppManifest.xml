@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="BrandingThemeshostedAddin"
+     ProductID="{8f022c15-6b6b-4cf1-9982-0200ab5dd1bd}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>Branding.Themes.hostedAddin</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+
+</App>

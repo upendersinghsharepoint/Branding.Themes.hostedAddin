@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="abaca31e-f791-4173-b2b8-129720d41d34" 
+        solutionId="abaca31e-f791-4173-b2b8-129720d41d34" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Branding.Themes.hostedAddin"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="4f5c8dd6-4a2b-43da-8293-0fa1fe5d607c" />
+  </features>
+</package>
