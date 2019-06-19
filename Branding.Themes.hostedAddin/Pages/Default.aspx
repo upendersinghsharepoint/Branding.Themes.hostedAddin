@@ -14,24 +14,42 @@
 
     <!-- Add your CSS styles to the following file -->
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Add your JavaScript to the following file -->
     <script type="text/javascript" src="../Scripts/App.js"></script>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
 </asp:Content>
 
-<%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
-<asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Page Title
-</asp:Content>
+
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Select theme
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Theme Selector</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save theme</button>
+      </div>
     </div>
+  </div>
+</div>
 
 </asp:Content>

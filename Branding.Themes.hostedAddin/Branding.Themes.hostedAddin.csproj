@@ -43,23 +43,71 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Content\bootstrap-grid.css.map" />
+    <None Include="Content\bootstrap-grid.min.css.map" />
+    <None Include="Content\bootstrap-reboot.css.map" />
+    <None Include="Content\bootstrap-reboot.min.css.map" />
+    <None Include="Content\bootstrap.css.map" />
+    <None Include="Content\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8f022c15-6b6b-4cf1-9982-0200ab5dd1bd}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\bootstrap.bundle.js.map" />
+    <None Include="Scripts\bootstrap.bundle.min.js.map" />
+    <None Include="Scripts\bootstrap.js.map" />
+    <None Include="Scripts\bootstrap.min.js.map" />
+    <None Include="Scripts\esm\popper-utils.js.map" />
+    <None Include="Scripts\esm\popper-utils.min.js.map" />
+    <None Include="Scripts\esm\popper.js.map" />
+    <None Include="Scripts\esm\popper.min.js.map" />
+    <None Include="Scripts\popper-utils.js.map" />
+    <None Include="Scripts\popper-utils.min.js.map" />
+    <None Include="Scripts\popper.js.map" />
+    <None Include="Scripts\popper.min.js.map" />
+    <None Include="Scripts\README.md" />
+    <None Include="Scripts\umd\popper-utils.js.map" />
+    <None Include="Scripts\umd\popper-utils.min.js.map" />
+    <None Include="Scripts\umd\popper.js.map" />
+    <None Include="Scripts\umd\popper.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Scripts\jquery-3.4.1.slim.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{089d40ee-5b2d-4959-b067-e31772973e7c}</SharePointProjectItemId>
     </None>
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +144,9 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
