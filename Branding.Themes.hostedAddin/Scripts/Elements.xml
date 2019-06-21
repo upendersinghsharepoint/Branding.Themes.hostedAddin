@@ -43,5 +43,8 @@
     <File Path="Scripts\bootstrap.bundle.min.js" Url="Scripts/bootstrap.bundle.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\bootstrap.bundle.js.map" Url="Scripts/bootstrap.bundle.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\bootstrap.bundle.js" Url="Scripts/bootstrap.bundle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\fabric.min.js" Url="Scripts/fabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\fabric.js" Url="Scripts/fabric.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\fabric.d.ts" Url="Scripts/fabric.d.ts" ReplaceContent="TRUE" />
   </Module>
 </Elements>

@@ -44,5 +44,8 @@
     <ProjectItemFile Source="bootstrap.bundle.min.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="bootstrap.bundle.js.map" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="bootstrap.bundle.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.d.ts" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

@@ -15,5 +15,11 @@
     <ProjectItemFile Source="bootstrap-grid.min.css" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="bootstrap-grid.css.map" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="bootstrap-grid.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.rtl.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.components.rtl.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.components.rtl.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.components.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fabric.components.css" Target="Content\" Type="ElementFile" />
   </Files>
 </ProjectItem>

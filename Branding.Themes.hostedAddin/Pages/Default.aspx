@@ -9,7 +9,7 @@
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
-    <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
+    <SharePoint:ScriptLink Name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Add your CSS styles to the following file -->
@@ -19,37 +19,73 @@
     <!-- Add your JavaScript to the following file -->
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/popper.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
+
 </asp:Content>
 
 
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
+    <div class="row col-lg-4 col-md-5 col-sm-6">
+        <div class="card">
+            <div class="card-header">Add Theme</div>
+            <div class="btn-group">
 
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Select theme
-</button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select theme
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" id="Add_Sounders_Rave_Gold">Sounders Rave Gold</a>
+                    <a class="dropdown-item" href="#" id="Add_Sounders_Rave_Gold_1">Sounders Rave Gold 1</a>
+                </div>
+            </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Theme Selector</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save theme</button>
-      </div>
+        </div>
+        <div class="card">
+            <div class="card-header">Apply Theme</div>
+
+            <div class="btn-group">
+
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select theme
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" id="Apply_Sounders_Rave_Gold">Sounders Rave Gold</a>
+                    <a class="dropdown-item" href="#" id="Apply_Sounders_Rave_Gold_1">Sounders Rave Gold 1</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">Update Theme</div>
+
+            <div class="btn-group">
+
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select theme
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" id="Update_Sounders_Rave_Gold">Sounders Rave Gold</a>
+                    <a class="dropdown-item" href="#" id="Update_Sounders_Rave_Gold_1">Sounders Rave Gold 1</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">Delete Theme</div>
+
+            <div class="btn-group">
+
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select theme
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" id="Delete_Sounders_Rave_Gold">Sounders Rave Gold</a>
+                    <a class="dropdown-item" href="#" id="Delete_Sounders_Rave_Gold_1">Sounders Rave Gold 1</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 </asp:Content>
